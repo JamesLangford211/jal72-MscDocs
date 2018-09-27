@@ -1,0 +1,43 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="AccuracyController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_accuracy_controller.html",tooltip="AccuracyController is used to control the spawning locations and throw directions of the barrel mini-..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="AIController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_i_controller.html",tooltip="AIController contains all the neccessary methods and properties for controlling the interactions betw..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Arrow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_arrow.html",tooltip="Contains the methods required to control the arrow and make it act realistically. Including containin..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ArrowManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_arrow_manager.html",tooltip="This controls the spawning of an arrow, notching it onto the bow, pulling the bowstring and firing th..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BillboardController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_billboard_controller.html",tooltip="Controller for the hit the barrel minigame, centrered around the large billboard displaying the playe..."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CollectableController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_collectable_controller.html",tooltip="Controller for the gem collectable. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Controller",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_controller.html",tooltip="Class used to manage collisions with the box collider around the right hand controller. Used when detecting whether the player is reaching to their back to grab an arrow. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ControlSchemeController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_control_scheme_controller.html",tooltip="Controls the changing and representation of the two control schemes. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="EnemyController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_enemy_controller.html",tooltip="Used for controlling the instantiation of an Enemy prefab and starting that enemies AI script..."];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="LevelManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_level_manager.html",tooltip="Class for the overall managing of the game scene. This will handle maze generation, restarting, and beginning the game. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Maze",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maze.html",tooltip="A class that controls the procedural generation of a Maze, the enemies and collectables inside of it..."];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="MazeCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maze_cell.html",tooltip="Scriptable object used to represent each single cell of the maze. "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="MazeEdgeCell",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_maze_edge_cell.html",tooltip="Represents a single edge of a MazeCell and the direction between this edge and the cell it is connect..."];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Passage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_passage.html",tooltip="Class to represent a passage in the maze. "];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Wall",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wall.html",tooltip="Class to represent a wall in a maze. "];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MenuUIController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_menu_u_i_controller.html",tooltip="Controller for the HUD UI and Menu UI in game. "];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Movement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_movement.html",tooltip="Controls the sliding movement for the player in control scheme one. "];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="PlayerCharController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_char_controller.html",tooltip="Controller for the Player Character, this involves detecting if the player has been hit..."];
+}

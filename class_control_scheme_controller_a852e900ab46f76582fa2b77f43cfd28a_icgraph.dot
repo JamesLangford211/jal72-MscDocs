@@ -1,0 +1,9 @@
+digraph "ControlSchemeController.ChangeSchemeTwo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="ControlSchemeController.\lChangeSchemeTwo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ControlSchemeController.\lSetDefault",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_control_scheme_controller.html#aa3babc3fd43f9a3c075ad37b4b7676bd",tooltip="Sets the default control scheme if it hasnt already been chosen. "];
+}
